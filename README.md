@@ -1,10 +1,10 @@
-# 🛒 Blinkit Sales Trends – SQL Analytics Project
+# Blinkit Sales Trends – SQL Analytics Project
 
 This project analyzes sales, logistics, and customer data from **Blinkit**, a leading grocery delivery service in India, using advanced SQL queries. Conducted as part of the **Business Data Management (BANA279)** course, the goal was to explore real business problems and derive insights through relational data modeling and SQL-based analytics.
 
 ---
 
-## 🚀 Project Objectives
+## Project Objectives
 
 - Analyze operational inefficiencies and customer behavior from Blinkit's datasets
 - Develop SQL queries to drive business decisions in marketing, inventory, and delivery
@@ -12,7 +12,7 @@ This project analyzes sales, logistics, and customer data from **Blinkit**, a le
 
 ---
 
-## 🏢 Business Context
+## Business Context
 
 Blinkit operates in the 10–30 minute grocery delivery space across urban India. Key operational challenges include:
 - Delays in delivery due to urban traffic
@@ -22,10 +22,10 @@ Blinkit operates in the 10–30 minute grocery delivery space across urban India
 
 ---
 
-## 📊 SQL Queries & Key Business Insights
+## SQL Queries & Key Business Insights
 
 | # | Query & File | Description | Business Insight |
-|--:|--------------|-------------|------------------|
+|--:|--------------|-------------------|----------------------------------------------------|
 | 1 | `query_1_top_customers.sql` | Identifies customers with high order frequency and high average order value | Helps focus loyalty programs on the most profitable customers. Example: Garima Behl placed 20 orders with ₹1982 AOV. |
 | 2 | `query_2_delayed_orders.sql` | Extracts orders delivered late | Most delays (3–15 mins) are caused by traffic, impacting SLAs and satisfaction. |
 | 3 | `query_3_top_selling_products.sql` | Calculates revenue per product | Baby Food and Mangoes top sales by value, indicating seasonal or staple demand. |
@@ -39,13 +39,16 @@ Blinkit operates in the 10–30 minute grocery delivery space across urban India
 
 ---
 
-## 📂 Folder Structure
-
-
+## Folder Structure
+-  [Documentation](./Documentation)
+-  [ERD_Diagrams](./ERD_Diagrams)
+-  [SQL_Queries](./SQL_Queries)
+-  [Outputs](./Outputs)
+-  [README.md](./README.md)
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - SQL (MySQL syntax)
 - Excel for CSV handling
@@ -54,17 +57,17 @@ Blinkit operates in the 10–30 minute grocery delivery space across urban India
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The data used in this project is publicly available on Kaggle:
 
-🔗 [Blinkit Sales Dataset – Kaggle](https://www.kaggle.com/datasets/akxiit/blinkit-sales-dataset/data)
+[Blinkit Sales Dataset – Kaggle](https://www.kaggle.com/datasets/akxiit/blinkit-sales-dataset/data)
 
 > The dataset includes sales transactions, customer feedback, delivery performance, and inventory records from Blinkit. Used here for academic, non-commercial purposes.
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Integrate visual dashboards using Tableau or Power BI
 - Predictive analytics on product demand or delivery time
@@ -72,12 +75,19 @@ The data used in this project is publicly available on Kaggle:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Pratiksha Gund**  
 Business Data Management | Data Analytics & Engineering Enthusiast  
 > _Academic project. Not affiliated with Blinkit._
 
----
+**About me**  
+I'm a data engineering and analytics enthusiast with a strong interest in solving real-world business problems through data. This Blinkit SQL project showcases my ability to design normalized relational schemas, write performance-focused SQL queries, and translate operational data into business insights.
 
-© 2025 Pratiksha Gund | All rights reserved.
+Through this project, I’ve explored challenges in delivery optimization, customer segmentation, inventory risk management, and feedback analysis — all using structured data and SQL logic. My goal is to continue building scalable, insight-driven solutions that power decision-making in fast-moving environments.
+
+**Email:** [pratikshagund10@gmail.com](mailto:pratikshagund10@gmail.com)  
+**LinkedIn:** [pratikshagund](https://www.linkedin.com/in/pratiksha-gund/)  
+**Portfolio:** [pratikshagund.dev]()
+
+I'm actively seeking opportunities in **Data Engineering, Analytics Engineering, or Cloud Data Platforms.** Let’s connect if you're hiring!
