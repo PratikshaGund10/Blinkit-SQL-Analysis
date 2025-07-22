@@ -25,7 +25,7 @@ Blinkit operates in the 10–30 minute grocery delivery space across urban India
 ## SQL Queries & Key Business Insights
 
 | # | Query & File | Description | Business Insight |
-|--:|--------------|-------------------|----------------------------------------------------|
+|--:|--------------|------------------------------------|--------------------------------------------------------------------------------|
 | 1 | `query_1_top_customers.sql` | Identifies customers with high order frequency and high average order value | Helps focus loyalty programs on the most profitable customers. Example: Garima Behl placed 20 orders with ₹1982 AOV. |
 | 2 | `query_2_delayed_orders.sql` | Extracts orders delivered late | Most delays (3–15 mins) are caused by traffic, impacting SLAs and satisfaction. |
 | 3 | `query_3_top_selling_products.sql` | Calculates revenue per product | Baby Food and Mangoes top sales by value, indicating seasonal or staple demand. |
